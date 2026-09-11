@@ -61,19 +61,21 @@ Then apply:
 ```
 Crab-Theme/
 ├── org.crab.desktop/       # Dark ember variant (Plasma 6 package)
-│   ├── contents/
-│   │   ├── colors/        # KDE color scheme (Crab.colors)
-│   │   ├── defaults      # Default color scheme config
-│   │   └── layouts/      # Desktop layouts
-│   └── metadata/
-│       └── manifest.json
+│   ├── metadata.json       # Root metadata (required by some Plasma builds)
+│   ├── metadata/           # Optional kpackage-format metadata
+│   │   └── manifest.json
+│   └── contents/
+│       ├── colors/         # KDE color scheme (Crab.colors)
+│       ├── defaults       # Default color scheme config
+│       └── layouts/       # Desktop layouts
 ├── org.crab.light.desktop/ # Daylight variant (Plasma 6 package)
-│   ├── contents/
-│   │   ├── colors/        # KDE color scheme (CrabDaylight.colors)
-│   │   ├── defaults
-│   │   └── layouts/
-│   └── metadata/
-│       └── manifest.json
+│   ├── metadata.json
+│   ├── metadata/
+│   │   └── manifest.json
+│   └── contents/
+│       ├── colors/         # KDE color scheme (CrabDaylight.colors)
+│       ├── defaults
+│       └── layouts/
 ├── LICENSE
 └── README.md
 ```

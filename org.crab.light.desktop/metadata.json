@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Id": "org.crab.light.desktop",
+        "Name": "Crab Daylight",
+        "Description": "Warm daylight light theme for KDE Plasma",
+        "Authors": [
+            {
+                "Name": "Cheikh Dah",
+                "Email": "cheikh@example.com"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "License": "GPLv3",
+        "Version": "1.0.0",
+        "Website": "https://github.com/Cheikh-dah/Crab-Theme",
+        "PluginNamespace": "org.crab.light.desktop"
+    },
+    "X-KDE-Keywords": "crab,light,daylight,warm,cream,theme,plasma",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "defaults"
+}
