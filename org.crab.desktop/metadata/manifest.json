@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Id": "org.crab.desktop",
+        "Name": "Crab",
+        "Description": "Warm ember dark theme for KDE Plasma",
+        "Authors": [
+            {
+                "Name": "Cheikh Dah",
+                "Email": "cheikh@example.com"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "License": "GPLv3",
+        "Version": "1.0.0",
+        "Website": "https://github.com/Cheikh-dah/Crab-Theme",
+        "PluginNamespace": "org.crab.desktop"
+    },
+    "X-KDE-Keywords": "crab,dark,ember,warm,theme,plasma",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "defaults"
+}
